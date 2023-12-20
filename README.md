@@ -20,3 +20,6 @@
 - `seachJobs(idUser):` Obtém as informações sobre os álbuns lançados pela banda/artista.
 - `setttingValuesAlbuns(albumData): ` Exibe informações básicas sobre 3 albuns da banda/artista
 - Várias funções auxiliares para criar elementos HTML (`createh1Error`, `createParagraphTitle`, `createParagraphData`, `createHr`).
+
+## Link pro projeto
+- https://joao123433.github.io/BandInfoFlow/
