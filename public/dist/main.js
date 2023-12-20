@@ -53,6 +53,7 @@ async function submitValue(ev) {
     tratamentErrorSpan();
     clearInformation();
     divAlbuns.classList.remove("view");
+    buttonJob.classList.remove("view");
     buttonJob.textContent = "Alguns trabalhos";
     const value = getData();
     try {

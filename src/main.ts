@@ -59,6 +59,7 @@ async function submitValue(ev?: { preventDefault: () => void }) {
   tratamentErrorSpan()
   clearInformation()
   divAlbuns.classList.remove("view")
+  buttonJob.classList.remove("view")
   buttonJob.textContent = "Alguns trabalhos"
   const value = getData()
 
