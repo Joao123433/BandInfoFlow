@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --opacity: 0;
+  --display: none;
+}
+.view {
+  --opacity: 1;
+  --display: flex;
+}
+body {
+  background-image: linear-gradient(#1A1A1A 5%, #000000 65%);
+  color: #E7FFFF;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+#form {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 75%;
+  background-color: #000000;
+  border-radius: 8px;
+  gap: 50px;
+}
+#content h1 {
+  margin-top: 100px;
+  font-size: 3rem;
+}
+#content form {
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+}
+form label {
+  font-weight: bold;
+  font-size: 15px;
+}
+form input {
+  background-color: #121212;
+  color: white;
+  border: 2px solid #A7A7A7;
+  border-radius: 5px;
+  padding: 10px 13px;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+form input:hover {
+  border: 2px solid white;
+}
+form span {
+  margin: 13px 3px 5px;
+  color: white;
+  width: 100%;
+}
+form button {
+  background-color: #1FDF64;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 75px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+form button:hover {
+  transform: scale(1.05);
+}
+#results {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#results #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 75%;
+  background-color: #000000;
+  border-radius: 8px;
+  gap: 25px;
+}
+#container #message {
+  margin-top: 100px;
+  font-size: 3rem;
+}
+#information {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#information p {
+  font-size: 1.3rem;
+  width: 80%;
+  text-align: center;
+  font-weight: 100;
+}
+p span {
+  font-weight: bold;
+}
+#information #jobs {
+  border: none;
+  background-color: transparent;
+  color: #A7A7A7;
+  cursor: pointer;
+  display: var(--display);
+}
+#information #jobs:hover {
+  text-decoration: underline;
+}
+#albuns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  opacity: var(--opacity);
+  display: var(--display);
+}
+#albuns p {
+  font-size: 1.1rem;
+}
+#albuns hr {
+  width: 100%;
+  margin: 15px 0px;
+}
+#h1Error {
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
